@@ -22,6 +22,18 @@ public class WrapperClass {
 		System.out.println(x);
 		System.out.println(z);
 		
+		//parse methods
+		
+		int p=Integer.parseInt("45");
+		System.out.println(p);
+		
+		double d = Double.parseDouble("45");
+		System.out.println(d);
+		
+		int m = Integer.parseInt("150",8);
+		System.out.println(m);
+		
+		
 	}
 
 }
